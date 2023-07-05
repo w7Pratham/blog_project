@@ -2,15 +2,17 @@ import os
 from pathlib import Path
 
 list_of_files = [
-    "main/__init__.py",
-    "main/routes.py",
-    "posts/__init__.py",
-    "posts/routes.py",
-    "posts/forms.py",
-    "users/__init__.py",
-    "users/routes.py",
-    "users/forms.py",
-    "users/utils.py",
+    # "main/__init__.py",
+    # "main/routes.py",
+    # "posts/__init__.py",
+    # "posts/routes.py",
+    # "posts/forms.py",
+    # "users/__init__.py",
+    # "users/routes.py",
+    # "users/forms.py",
+    # "users/utils.py",
+    "errors/__init__.py",
+    "errors/handlers.py",
 ]
 
 for filepath in list_of_files:
